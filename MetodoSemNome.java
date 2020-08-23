@@ -8,6 +8,7 @@ public class  MetodoSemNome{
     Set<Integer> listaMatricula= new HashSet<Integer>();
 
     //teste novo
+    //test
     public List<Integer> matriculaUnica(List<Integer> listaOriginal){
         ListIterator<Integer> iter = listaOriginal.listIterator();
         while(iter.hasNext()){
@@ -19,5 +20,5 @@ public class  MetodoSemNome{
         }
         return listaNova;
     }
-
+    // e eu so tava testando ele
 }

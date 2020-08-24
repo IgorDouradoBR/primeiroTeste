@@ -44,7 +44,7 @@ public class App {
         nomeComMatricula x11 = new nomeComMatricula(20008, "Só um segurança");
         nomeComMatricula x12 = new nomeComMatricula(20008, "Esse não vai aparecer");
         nomeComMatricula x13 = new nomeComMatricula(20008, "Nem esse");
-        //meio
+        //meio 
         matriculasComNomes.add(x1);
         matriculasComNomes.add(x2);
         matriculasComNomes.add(x3);
@@ -63,7 +63,7 @@ public class App {
         System.out.println("funcionarios nomeados e suas matriculas sem repetição de matricula: ");
         for(int i=0; i<matriculasComNomes.size(); i++){
             System.out.println("nome: "+ matriculasComNomes.get(i).getNome()+ ", Matricula: "+  matriculasComNomes.get(i).getMatricula());
-        }
+        }//com o github
         System.out.println("A parte só com matricula sem o nome ficou na parte de cima do terminal");
     }
 }

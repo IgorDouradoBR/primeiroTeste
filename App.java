@@ -28,6 +28,8 @@ public class App {
         System.out.println("matriculas que não possui o nome do funcionário sem repetição: \n"+ matriculasSemNome.toString());
         //tes
         //PROFESSOR, FIZ ESSA PARTE ABAIXO SÓ PARA TESTAR CASO FOSSE O CASO
+        //teste
+        //PROFESSOR, FIZ ESSA PARTE ABAIXO SÓ PARA TESTAR CASO FOSSE O CASO test quase acabado
         List<nomeComMatricula> matriculasComNomes = new LinkedList<nomeComMatricula>();
         nomeComMatricula x1 = new nomeComMatricula(20000, "Zezinho");
         nomeComMatricula x2 = new nomeComMatricula(20000, "Aroldo");
@@ -42,7 +44,7 @@ public class App {
         nomeComMatricula x11 = new nomeComMatricula(20008, "Só um segurança");
         nomeComMatricula x12 = new nomeComMatricula(20008, "Esse não vai aparecer");
         nomeComMatricula x13 = new nomeComMatricula(20008, "Nem esse");
-
+        //meio
         matriculasComNomes.add(x1);
         matriculasComNomes.add(x2);
         matriculasComNomes.add(x3);

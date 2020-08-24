@@ -64,6 +64,7 @@ public class App {
         for(int i=0; i<matriculasComNomes.size(); i++){
             System.out.println("nome: "+ matriculasComNomes.get(i).getNome()+ ", Matricula: "+  matriculasComNomes.get(i).getMatricula());
         }//com o github
+        //novo comentario
         System.out.println("A parte só com matricula sem o nome ficou na parte de cima do terminal");
     }
 }
